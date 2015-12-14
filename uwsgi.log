@@ -1,0 +1,431 @@
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:54:57 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+setgid() to 1000
+setuid() to 1000
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:54:57 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+chdir() to /home/yangyf/mysite
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.5.0 (default, Nov 24 2015, 11:17:09)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1927710
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1927710 pid: 1452 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1452)
+Fri Dec 11 15:54:58 2015 - [emperor] vassal mysite_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1454, cores: 1)
+Fri Dec 11 15:54:58 2015 - [emperor] vassal mysite_uwsgi.ini is ready to accept requests
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:55:04 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+setgid() to 1000
+setuid() to 1000
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:55:04 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+chdir() to /home/yangyf/mysite
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.5.0 (default, Nov 24 2015, 11:17:09)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d3b710
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d3b710 pid: 1485 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1485)
+Fri Dec 11 15:55:05 2015 - [emperor] vassal mysite_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1487, cores: 1)
+Fri Dec 11 15:55:05 2015 - [emperor] vassal mysite_uwsgi.ini is ready to accept requests
+[pid: 1487|app: 0|req: 1/1] 119.166.244.22 () {40 vars in 672 bytes} [Fri Dec 11 15:55:25 2015] GET /blog/ => generated 169 bytes in 181 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Fri Dec 11 15:55:25 2015 - [emperor] vassal mysite_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Fri Dec 11 15:55:29 2015 - [emperor] stop the uwsgi instance mysite_uwsgi.ini
+...brutally killing workers...
+Fri Dec 11 15:55:29 2015 - received message 0 from emperor
+[emperor] *** RAGNAROK EVOKED ***
+Fri Dec 11 15:55:29 2015 - [emperor] stop the uwsgi instance mysite_uwsgi.ini
+...brutally killing workers...
+Fri Dec 11 15:55:29 2015 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/tmp/mysite.sock)
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/tmp/mysite.sock)
+running /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+running /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:55:30 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+chdir() to /home/yangyf/mysite
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/mysite.sock fd 3
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 15:55:30 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+chdir() to /home/yangyf/mysite
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/mysite.sock fd 3
+Python version: 3.5.0 (default, Nov 24 2015, 11:17:09)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)]
+Python version: 3.5.0 (default, Nov 24 2015, 11:17:09)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb7a680
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e57680
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e57680 pid: 1452 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1452)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xb7a680 pid: 1485 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1485)
+spawned uWSGI worker 1 (pid: 1565, cores: 1)
+epoll_ctl(): Operation not permitted [core/event.c line 521]
+spawned uWSGI worker 1 (pid: 1566, cores: 1)
+epoll_ctl(): Operation not permitted [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:31 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:31 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1565)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:31 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:31 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1566)...
+worker 1 killed successfully (pid: 1565)
+Respawned uWSGI worker 1 (new pid: 1726)
+worker 1 killed successfully (pid: 1566)
+Respawned uWSGI worker 1 (new pid: 1727)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:32 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:32 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1727)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:32 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:32 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1726)...
+worker 1 killed successfully (pid: 1726)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1727)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1820)
+Respawned uWSGI worker 1 (new pid: 1821)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:35 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:35 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1820)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:35 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:35 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1821)...
+worker 1 killed successfully (pid: 1820)
+Respawned uWSGI worker 1 (new pid: 1822)
+worker 1 killed successfully (pid: 1821)
+Respawned uWSGI worker 1 (new pid: 1823)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:36 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:36 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1823)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:36 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:36 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1822)...
+worker 1 killed successfully (pid: 1822)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1823)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1824)
+Respawned uWSGI worker 1 (new pid: 1825)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:39 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:39 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1824)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:39 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:39 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1825)...
+worker 1 killed successfully (pid: 1824)
+Respawned uWSGI worker 1 (new pid: 1826)
+worker 1 killed successfully (pid: 1825)
+Respawned uWSGI worker 1 (new pid: 1827)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:40 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:40 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1826)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:40 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:40 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1827)...
+worker 1 killed successfully (pid: 1826)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1827)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1828)
+Respawned uWSGI worker 1 (new pid: 1829)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:43 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:43 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1828)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:43 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:43 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1829)...
+worker 1 killed successfully (pid: 1828)
+Respawned uWSGI worker 1 (new pid: 1830)
+worker 1 killed successfully (pid: 1829)
+Respawned uWSGI worker 1 (new pid: 1831)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:44 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:44 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1830)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:44 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:44 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1831)...
+worker 1 killed successfully (pid: 1830)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1831)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1832)
+Respawned uWSGI worker 1 (new pid: 1833)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:47 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:47 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1832)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:47 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:47 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1833)...
+worker 1 killed successfully (pid: 1832)
+Respawned uWSGI worker 1 (new pid: 1834)
+worker 1 killed successfully (pid: 1833)
+Respawned uWSGI worker 1 (new pid: 1835)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:48 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:48 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1834)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:48 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:48 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1835)...
+worker 1 killed successfully (pid: 1834)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1835)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1836)
+Respawned uWSGI worker 1 (new pid: 1837)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:51 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:51 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1836)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:51 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:51 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1837)...
+worker 1 killed successfully (pid: 1836)
+Respawned uWSGI worker 1 (new pid: 1838)
+worker 1 killed successfully (pid: 1837)
+Respawned uWSGI worker 1 (new pid: 1839)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:52 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:52 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1838)...
+Fri Dec 11 15:55:52 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:52 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1839)...
+worker 1 killed successfully (pid: 1838)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1839)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 1840)
+Respawned uWSGI worker 1 (new pid: 1841)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:55 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:55 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1840)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:55 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:55 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1841)...
+worker 1 killed successfully (pid: 1840)
+Respawned uWSGI worker 1 (new pid: 1842)
+worker 1 killed successfully (pid: 1841)
+Respawned uWSGI worker 1 (new pid: 1843)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:56 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:56 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1842)...
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3503]
+Fri Dec 11 15:55:56 2015 - lost communication with the Emperor, goodbye...
+Fri Dec 11 15:55:56 2015 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 1843)...
+worker 1 killed successfully (pid: 1842)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+worker 1 killed successfully (pid: 1843)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Fri Dec 11 15:55:59 2015 - [emperor] NO MERCY for vassal mysite_uwsgi.ini !!!
+Fri Dec 11 15:55:59 2015 - The Emperor is buried.
+Fri Dec 11 15:55:59 2015 - [emperor] NO MERCY for vassal mysite_uwsgi.ini !!!
+Fri Dec 11 15:55:59 2015 - The Emperor is buried.
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 16:04:54 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+setgid() to 1000
+setuid() to 1000
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Fri Dec 11 16:04:54 2015] ***
+compiled with version: 4.8.2 20140120 (Red Hat 4.8.2-16) on 04 December 2015 17:24:13
+os: Linux-3.10.0-123.9.3.el7.x86_64 #1 SMP Thu Nov 6 15:06:03 UTC 2014
+nodename: iZ28rwxhlt3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/yangyf/.pyenv/versions/3.5.0/bin/uwsgi
+chdir() to /home/yangyf/mysite
+your processes number limit is 7822
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.5.0 (default, Nov 24 2015, 11:17:09)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x104ce00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x104ce00 pid: 1224 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1224)
+Fri Dec 11 16:04:55 2015 - [emperor] vassal mysite_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1236, cores: 1)
+Fri Dec 11 16:04:55 2015 - [emperor] vassal mysite_uwsgi.ini is ready to accept requests
+[pid: 1236|app: 0|req: 1/1] 119.166.244.22 () {40 vars in 672 bytes} [Fri Dec 11 16:05:22 2015] GET /blog/ => generated 169 bytes in 83 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Fri Dec 11 16:05:22 2015 - [emperor] vassal mysite_uwsgi.ini is now loyal
+[pid: 1236|app: 0|req: 2/2] 121.42.0.30 () {34 vars in 406 bytes} [Fri Dec 11 18:58:58 2015] GET / => generated 2014 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 3/3] 61.160.213.33 () {32 vars in 405 bytes} [Fri Dec 11 20:49:19 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 5 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 4/4] 121.42.0.17 () {34 vars in 406 bytes} [Fri Dec 11 22:49:01 2015] GET / => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 5/5] 121.42.0.39 () {34 vars in 406 bytes} [Sat Dec 12 05:43:34 2015] GET / => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 6/6] 61.160.213.33 () {32 vars in 405 bytes} [Sat Dec 12 06:47:38 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 7/7] 61.160.213.33 () {32 vars in 405 bytes} [Sun Dec 13 02:44:22 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 8/8] 42.156.250.117 () {26 vars in 285 bytes} [Sun Dec 13 10:09:49 2015] GET / => generated 2014 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 9/9] 61.160.213.33 () {32 vars in 405 bytes} [Sun Dec 13 12:42:29 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 10/10] 61.160.213.33 () {32 vars in 405 bytes} [Sun Dec 13 22:41:15 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 11/11] 61.160.213.33 () {32 vars in 405 bytes} [Mon Dec 14 08:39:25 2015] GET /cgi-bin/chs/numreg/init? => generated 2073 bytes in 4 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 12/12] 119.166.244.22 () {40 vars in 662 bytes} [Mon Dec 14 11:13:05 2015] GET / => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1236|app: 0|req: 13/13] 180.153.214.189 () {38 vars in 629 bytes} [Mon Dec 14 11:13:05 2015] GET / => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
